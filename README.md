@@ -9,4 +9,10 @@ cmake CMakeLists.txt && make
 
 ./project4 functionDefinitionFile inputValuesFile outputValuesFile derivativeValuesFile
 
+## Check test cases using checker
+
+After compiling checker_v2.cpp, run the command
+
+./checker outputFile expectedOutputFile
+
 For more information, visit project description file.

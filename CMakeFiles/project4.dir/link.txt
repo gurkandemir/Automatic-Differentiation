@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11   CMakeFiles/project4.dir/function.cpp.o CMakeFiles/project4.dir/graph.cpp.o CMakeFiles/project4.dir/main.cpp.o CMakeFiles/project4.dir/variable.cpp.o  -o project4 -rdynamic 

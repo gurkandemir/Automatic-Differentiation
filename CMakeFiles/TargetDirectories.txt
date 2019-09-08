@@ -1,3 +1,0 @@
-/home/ggurkandemir/Desktop/uni/AutomaticDifferentiation/CMakeFiles/edit_cache.dir
-/home/ggurkandemir/Desktop/uni/AutomaticDifferentiation/CMakeFiles/rebuild_cache.dir
-/home/ggurkandemir/Desktop/uni/AutomaticDifferentiation/CMakeFiles/project4.dir

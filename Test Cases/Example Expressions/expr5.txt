@@ -1,0 +1,27 @@
+input x_0
+input x_1
+input x_2
+input x_7
+input x_8
+input x_9
+output t_91
+t_2 = divide x_1 x_0
+t_3 = add x_8 x_2
+t_7 = cos t_3
+t_9 = subs t_2 t_7
+t_15 = mult t_2 x_7
+t_20 = add t_9 x_9
+t_24 = tan t_15
+t_31 = sqrt t_24
+t_36 = cos t_24
+t_37 = tan t_20
+t_38 = acos t_37
+t_42 = acos t_31
+t_48 = add t_38 t_36
+t_50 = log t_31
+t_59 = divide t_48 t_37
+t_70 = mult t_59 t_42
+t_72 = asin t_50
+t_74 = log t_70
+t_82 = sqrt t_74
+t_91 = pow t_82 t_72

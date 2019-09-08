@@ -1,0 +1,18 @@
+input x_0
+input x_3
+input x_4
+input x_5
+output t_79
+t_6 = exp x_0
+t_7 = subs x_5 x_4
+t_10 = add x_0 t_6
+t_17 = divide x_3 t_7
+t_26 = cos t_17
+t_32 = cos t_10
+t_47 = sqrt t_26
+t_49 = asin t_32
+t_50 = tan t_49
+t_63 = cos t_50
+t_65 = atan t_47
+t_73 = mult t_65 t_63
+t_79 = pow t_73 t_73

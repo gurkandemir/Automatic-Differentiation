@@ -1,0 +1,32 @@
+input x_0
+input x_2
+input x_6
+output t_98
+t_0 = atan x_2
+t_3 = add x_6 x_2
+t_7 = sqrt t_0
+t_9 = log x_0
+t_15 = sqrt t_0
+t_17 = exp t_7
+t_18 = sqrt x_2
+t_21 = log t_17
+t_25 = cos t_0
+t_27 = pow t_21 t_25
+t_28 = cos t_27
+t_29 = subs t_21 t_15
+t_31 = subs t_3 t_9
+t_33 = add t_25 t_18
+t_39 = sin t_28
+t_46 = tan t_29
+t_48 = exp t_46
+t_52 = sqrt t_31
+t_53 = acos t_46
+t_58 = pow t_33 t_48
+t_60 = atan t_33
+t_61 = subs t_60 t_58
+t_63 = divide t_39 t_53
+t_69 = divide t_52 t_61
+t_70 = cos t_63
+t_79 = cos t_70
+t_95 = subs t_69 t_79
+t_98 = atan t_95

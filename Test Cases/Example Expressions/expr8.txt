@@ -1,0 +1,37 @@
+input x_1
+input x_2
+input x_4
+input x_5
+input x_7
+input x_8
+input x_9
+output t_98
+t_5 = divide x_2 x_8
+t_6 = sin x_4
+t_7 = tan t_6
+t_9 = asin t_5
+t_17 = cos x_4
+t_20 = sin x_7
+t_21 = divide x_5 x_1
+t_24 = sqrt t_9
+t_28 = subs x_9 t_21
+t_31 = sin t_24
+t_33 = acos t_20
+t_35 = exp t_17
+t_37 = divide t_21 t_7
+t_39 = divide t_37 t_35
+t_40 = sin t_28
+t_44 = divide t_40 t_28
+t_45 = sin t_35
+t_47 = sqrt t_33
+t_54 = mult t_39 t_35
+t_55 = sin t_47
+t_57 = exp t_31
+t_67 = subs t_37 t_45
+t_68 = divide t_67 t_55
+t_73 = sqrt t_57
+t_74 = exp t_44
+t_75 = divide t_68 t_73
+t_78 = sin t_74
+t_81 = subs t_54 t_78
+t_98 = mult t_75 t_81

@@ -1,0 +1,38 @@
+input x_1
+input x_2
+input x_4
+input x_5
+input x_7
+input x_9
+output t_94
+t_3 = mult x_5 x_4
+t_6 = mult t_3 x_9
+t_10 = exp x_1
+t_13 = cos x_2
+t_16 = cos x_2
+t_18 = tan t_10
+t_21 = exp t_16
+t_22 = sin t_13
+t_25 = pow t_18 x_7
+t_30 = sqrt t_25
+t_31 = tan t_6
+t_35 = acos t_22
+t_37 = sqrt t_35
+t_39 = sin t_16
+t_42 = cos t_35
+t_43 = divide t_31 t_39
+t_47 = atan t_39
+t_50 = divide t_21 t_30
+t_56 = exp t_43
+t_57 = divide t_47 t_37
+t_68 = exp t_50
+t_69 = sqrt t_56
+t_70 = exp t_42
+t_71 = cos t_50
+t_76 = cos t_70
+t_77 = subs t_76 t_69
+t_81 = cos t_77
+t_82 = divide t_81 t_57
+t_85 = subs t_68 t_82
+t_93 = sqrt t_85
+t_94 = pow t_93 t_71

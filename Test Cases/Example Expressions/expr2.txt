@@ -1,0 +1,26 @@
+input x_4
+input x_5
+input x_6
+input x_8
+output t_86
+t_4 = exp x_5
+t_5 = log x_8
+t_6 = tan t_5
+t_8 = atan t_4
+t_9 = asin x_6
+t_10 = cos t_6
+t_11 = log t_8
+t_13 = asin t_5
+t_19 = sin t_10
+t_20 = tan x_4
+t_28 = subs t_20 t_9
+t_29 = pow t_19 t_11
+t_32 = acos t_6
+t_41 = add t_13 t_32
+t_42 = pow t_29 t_41
+t_53 = acos t_28
+t_66 = divide t_42 t_42
+t_69 = sqrt t_66
+t_74 = exp t_66
+t_79 = mult t_53 t_69
+t_86 = pow t_79 t_74
